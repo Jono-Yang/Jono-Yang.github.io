@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>About Me</title>
+    <title>About Me - Mines Game Look</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 50px);
+            gap: 5px;
+            margin-top: 20px;
+        }
+        .cell {
+            width: 50px;
+            height: 50px;
+            background-color: #ccc;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: #333;
+        }
+        .mine {
+            background-color: red;
+            color: white;
+        }
+        .number {
+            background-color: #eee;
+        }
+    </style>
 </head>
 <body>
 
     <h1>About Me</h1>
-    <p>This is a site where I occasionally do random stuff and upload my homeworks</p>
+    <p>This is a website where I do random things and upload my homework.</p>
     <a href="index.html" class="my-button">Back to Home</a>
+
+    <div class="grid">
+        <div class="cell mine">💣</div>
+        <div class="cell number">1</div>
+        <div class="cell number">0</div>
+        <div class="cell mine">💣</div>
+        <div class="cell number">2</div>
+
+        <div class="cell number">1</div>
+        <div class="cell number">2</div>
+        <div class="cell mine">💣</div>
+        <div class="cell number">1</div>
+        <div class="cell number">0</div>
+
+        <div class="cell number">0</div>
+        <div class="cell number">1</div>
+        <div class="cell number">1</div>
+        <div class="cell number">1</div>
+        <div class="cell number">0</div>
+
+        <div class="cell number">0</div>
+        <div class="cell mine">💣</div>
+        <div class="cell number">2</div>
+        <div class="cell number">2</div>
+        <div class="cell number">1</div>
+
+        <div class="cell number">0</div>
+        <div class="cell number">1</div>
+        <div class="cell mine">💣</div>
+        <div class="cell number">1</div>
+        <div class="cell number">0</div>
+    </div>
 
 </body>
 </html>
