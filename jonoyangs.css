@@ -3,13 +3,10 @@ h1{
 }
 
 body{
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_bx6ayWTjWRSZelN8klJ7PjXfRae8eIuSA&s');
-  font-size: 100px;
+  background-img: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGz0SIOpP35ma9bpd4HKOGQweEzDzgEhru-Q&s');
+  font-size: 50px;
 }
 
-a{
-  text-decoration: none;
-  color: rgb(0,0,0);
-}
+
 
 
