@@ -1,14 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="jonoyangs.css">
-  <title>Y9 STEM Jonathan Yang's Homework Files</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jonathan Yang's 9 STEM Homework</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-  <body>
-    <h1>Hello, my name is Jonathan Yang and you are lucky I have gotten rid of a link that was supposed to be here if you pressed this link, but since I am so kind, I have gotten rid of it.</h1>
-    
-  </body>
+<body>
+  <div class="container">
+    <header>
+      <h1>Jonathan Yang's 9 STEM Homework</h1>
+    </header>
 
+    <main>
+      <form action="/submit" method="POST" enctype="multipart/form-data">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
 
-  
+        <label for="assignment">Assignment Title:</label>
+        <input type="text" id="assignment" name="assignment" required />
+
+        <label for="file">Upload Homework File:</label>
+        <input type="file" id="file" name="file" required />
+
+        <button type="submit">Submit Homework</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Jonathan Yang</p>
+    </footer>
+  </div>
+</body>
 </html>
