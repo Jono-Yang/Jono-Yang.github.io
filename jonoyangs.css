@@ -4,12 +4,12 @@ h1{
 
 body{
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_bx6ayWTjWRSZelN8klJ7PjXfRae8eIuSA&s');
+  font-size: 1000px;
 }
 
 a{
   text-decoration: none;
   color: rgb(0,0,0);
-  font-size: 1000px;
 }
 
 
