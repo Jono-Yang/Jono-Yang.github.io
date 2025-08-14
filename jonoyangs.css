@@ -5,4 +5,5 @@ h1{
 body{
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc_bx6ayWTjWRSZelN8klJ7PjXfRae8eIuSA&s');
   background-repeat: no-repeat;
+  background-size: contain;
 }
